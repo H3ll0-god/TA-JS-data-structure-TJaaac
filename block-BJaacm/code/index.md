@@ -18,18 +18,18 @@ let newUser = user;
 
 2. Answer the following with reason:
 
-- `user == newUser;` // output and reason
-- `user === newUser;`
-- `user.name === newUser.name;`
-- `user.name == newUser.name;`
-- `user.sibling == newUser.sibling;`
-- `user.sibling === newUser.sibling;`
-- `user.sibling == allBrothers;`
-- `user.sibling === allBrothers;`
-- `brothersCopy === allBrothers;`
-- `brothersCopy == allBrothers;`
-- `brothersCopy == user.sibling;`
-- `brothersCopy === user.sibling;`
-- `brothersCopy[0] === user.sibling[0];`
-- `brothersCopy[1] === user.sibling[1];`
-- `user.sibling[1] === newUser.sibling[1];`
+- `user == newUser;` //True because the values of user are not changed and again stored in a new variable called newUser which is a call by value  output and reason
+- `user === newUser;` // True because the values of user are not changed and again stored in a new variable called newUser which is a call by value  output and reason === is also true because no values are changed in the place called user
+- `user.name === newUser.name;`// True because the values of user are not changed and again stored in a new variable called newUser which is a call by value  output and reason === is also true because no values are changed in the place called user
+- `user.name == newUser.name;`// True because the values of user are not changed and again stored in a new variable called newUser which is a call by value  output and reason === is also true because no values are changed in the place called user
+- `user.sibling == newUser.sibling;`// True because the values of user are not changed and again stored in a new variable called newUser which is a call by value  output and reason === is also true because no values are changed in the place called user
+- `user.sibling === newUser.sibling;`// // True because the values of user are not changed and again stored in a new variable called newUser which is a call by value  output and reason === is also true because no values are changed in the place called user
+- `user.sibling == allBrothers;`//// True because the values of user are not changed and again stored in a new variable called newUser which is a call by value  output and reason === is also true because no values are changed in the place called user
+- `user.sibling === allBrothers;`// True because the values of user are not changed and again stored in a new variable called newUser which is a call by value  output and reason === is also true because no values are changed in the place called user
+- `brothersCopy === allBrothers;`// True because the values of user are not changed and again stored in a new variable called newUser which is a call by value  output and reason === is also true because no values are changed in the place called user
+- `brothersCopy == allBrothers;`//// True because the values of user are not changed and again stored in a new variable called newUser which is a call by value  output and reason === is also true because no values are changed in the place called user
+- `brothersCopy == user.sibling;`// True because the values of user are not changed and again stored in a new variable called newUser which is a call by value  output and reason === is also true because no values are changed in the place called user
+- `brothersCopy === user.sibling;`// True because the values of user are not changed and again stored in a new variable called newUser which is a call by value  output and reason === is also true because no values are changed in the place called user
+- `brothersCopy[0] === user.sibling[0];`// True because the values of user are not changed and again stored in a new variable called newUser which is a call by value  output and reason === is also true because no values are changed in the place called user
+- `brothersCopy[1] === user.sibling[1];`// True because the values of user are not changed and again stored in a new variable called newUser which is a call by value  output and reason === is also true because no values are changed in the place called user
+- `user.sibling[1] === newUser.sibling[1];`// True because the values of user are not changed and again stored in a new variable called newUser which is a call by value  output and reason === is also true because no values are changed in the place called user
