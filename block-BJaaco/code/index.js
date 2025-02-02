@@ -1,12 +1,31 @@
-let numbers = [6, 8, 10, 12, 43, 56, 98];
-
-let userIds = [1230, 234, 1278, 984, 763, 900];
+let numbers = [6, 8, 10, 12, 43, 56, 98, 99];
+let userIds = [123, 234, 1278, 984, 763, 900];
 
 // 1. Add all the values of numbers and userIds array into the new newly created array named `collection`
+let collection = [] ;
+  for(let num of numbers){
+    collection.push(num);
+  }
+   for(let id of userIds){
+    collection.push(id);
+   }
 
 // 2. Add all the even numbers from both arrays numbers and userIds into a newly created array named `evenCollection`
+let even = [];
+for (let num of collection) {
+  if(num % 2 === 0) {
+    even.push(num);
+  }
+}
+
 
 // 3. Add all the odd numbers from both arrays numbers and userIds into a newly created array named `oddCollection`
+let odd = [];
+for (let num of collection) {
+  if(num % 2 !== 0) {
+    odd.push(num);
+  }
+}
 
 /*
   @param means parameter
@@ -16,7 +35,9 @@ let userIds = [1230, 234, 1278, 984, 763, 900];
   @param times (number)
   @param character (string)
   @return array
-
+for(let id of userIds){
+    collection.push(id);
+  }
   Example: 
     times(5, 'c'); // ['c', 'c', 'c', 'c', 'c']
     times(2, 'a'); // ['a', 'a']
@@ -46,7 +67,7 @@ function times() {
     revert([1, 2, 3, 4]); // [4, 3, 2, 1]
     revert(['a', 'd', 'c', 'b']); // ['b', 'c', 'd', 'a']
     revert(['Ryan', 'John', 'Bran']); //['Bran', 'John', 'Ryan']
-*/
+*/C
 
 function revert() {
   // your code
