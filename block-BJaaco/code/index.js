@@ -11,19 +11,19 @@ let collection = [] ;
    }
 
 // 2. Add all the even numbers from both arrays numbers and userIds into a newly created array named `evenCollection`
-let even = [];
+let evenCollection = [];
 for (let num of collection) {
   if(num % 2 === 0) {
-    even.push(num);
+    evenCollection.push(num);
   }
 }
 
 
 // 3. Add all the odd numbers from both arrays numbers and userIds into a newly created array named `oddCollection`
-let odd = [];
+let oddCollection = [];
 for (let num of collection) {
   if(num % 2 !== 0) {
-    odd.push(num);
+    oddCollection.push(num);
   }
 }
 
@@ -45,8 +45,10 @@ for(let id of userIds){
     times(5); // ['test', 'test', 'test', 'test', 'test']
 */
 
-function times() {
+function times(number,string) {
   // Your code
+for(let num of numbers){
+  return times.push[num,string] 
 }
 
 // Uncomment the code below and test the output
