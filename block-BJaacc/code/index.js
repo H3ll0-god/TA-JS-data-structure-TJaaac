@@ -21,7 +21,11 @@ console.log(students[42]);
 // 10. Check the length of object named `students`.
 console.log(students.lenght);
 // 11. Can you define a key of `let or var` in any object? Reason.
-
+Node, Because they are primitive datatypes We cannot Because they are reserved key words.
 // 12. Delete the `isAdult` property from the object `students`. Also, print the object before or after deleting the property
-
+console.log(isAdult);
+delete students.isAdult;
+console.log(isAdult);
 // 13. Update the value of the key batch in the object `students` and print it using `console.log`
+students.batch = 1;
+console.log(students.batch);
