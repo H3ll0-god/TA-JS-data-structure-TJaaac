@@ -40,7 +40,10 @@ for(i=0; i< colors.length;i++){
 }
 console.log(`${colors[i]},${i} or${colors[i]},${i}}`);
 // 18. Write a for..of loop to iterate through every element in the array and print each element to the console.
-
+for (let color of colors){
+    console.log(color);
+}
 // 19. Create a variable named lastColor that will always point to the last element of the colors array, no matter how many colors are in the list. (Hint: make use of the array's length property for this!)
-
+let lastColor = colors.length
 // 20. Add a new color `tomato` to the index 45. And check the length of the array. Use `console.log` to print.
+colors[45] = "tomato"
